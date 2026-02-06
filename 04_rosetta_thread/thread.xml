@@ -1,0 +1,22 @@
+<ROSETTASCRIPTS>
+    <SCOREFXNS>
+        <ScoreFunction name="scorefxn" weights="ref2015"/>
+    </SCOREFXNS>
+
+    <MOVERS>
+        <!-- Thread ProteinMPNN sequence onto RFdiffusion backbone (no backbone changes) -->
+        <SimpleThreadingMover name="thread_peptide"
+                              start_position="1B"
+                              thread_sequence="%%sequence%%"
+                              pack_neighbors="true"
+                              neighbor_dis="8.0"
+                              pack_rounds="5"
+                              scorefxn="scorefxn"/>
+    </MOVERS>
+
+    <PROTOCOLS>
+        <Add mover="thread_peptide"/>
+    </PROTOCOLS>
+
+    <OUTPUT scorefxn="scorefxn"/>
+</ROSETTASCRIPTS>

@@ -1,0 +1,168 @@
+{
+    "exp1_MHC_minimal": {
+        "dialect": 2,
+        "input": "HLA_A02_8GOM_std_clean.pdb",
+        "contig": "A1-275,/0,8-8,/0,D1-180,D183-193,/0,E2-245",
+        "infer_ori_strategy": "hotspots",
+        "select_hotspots": {
+            "A66": "CA",
+            "A159": "CA",
+            "A77": "CA",
+            "A143": "CA"
+        },
+        "is_non_loopy": true
+    },
+    "exp2_MHC_moderate": {
+        "dialect": 2,
+        "input": "HLA_A02_8GOM_std_clean.pdb",
+        "contig": "A1-275,/0,8-8,/0,D1-180,D183-193,/0,E2-245",
+        "infer_ori_strategy": "hotspots",
+        "select_hotspots": {
+            "A66": "CA",
+            "A159": "CA",
+            "A7": "CA",
+            "A99": "CA",
+            "A77": "CA",
+            "A143": "CA",
+            "A116": "CA",
+            "A123": "CA"
+        },
+        "is_non_loopy": true
+    },
+    "exp3_MHC_extensive": {
+        "dialect": 2,
+        "input": "HLA_A02_8GOM_std_clean.pdb",
+        "contig": "A1-275,/0,8-8,/0,D1-180,D183-193,/0,E2-245",
+        "infer_ori_strategy": "hotspots",
+        "select_hotspots": {
+            "A66": "CA",
+            "A63": "CA",
+            "A159": "CA",
+            "A167": "CA",
+            "A7": "CA",
+            "A99": "CA",
+            "A77": "CA",
+            "A80": "CA",
+            "A143": "CA",
+            "A146": "CA",
+            "A116": "CA",
+            "A123": "CA"
+        },
+        "is_non_loopy": true
+    },
+    "exp4_MHC+TCR_minimal": {
+        "dialect": 2,
+        "input": "HLA_A02_8GOM_std_clean.pdb",
+        "contig": "A1-275,/0,8-8,/0,D1-180,D183-193,/0,E2-245",
+        "infer_ori_strategy": "hotspots",
+        "select_hotspots": {
+            "A66": "CA",
+            "A159": "CA",
+            "A77": "CA",
+            "A143": "CA",
+            "D97": "CA",
+            "D98": "CA",
+            "E99": "CA",
+            "E100": "CA"
+        },
+        "is_non_loopy": true
+    },
+    "exp5_MHC+TCR_balanced": {
+        "dialect": 2,
+        "input": "HLA_A02_8GOM_std_clean.pdb",
+        "contig": "A1-275,/0,8-8,/0,D1-180,D183-193,/0,E2-245",
+        "infer_ori_strategy": "hotspots",
+        "select_hotspots": {
+            "A66": "CA",
+            "A159": "CA",
+            "A7": "CA",
+            "A99": "CA",
+            "A77": "CA",
+            "A143": "CA",
+            "A116": "CA",
+            "A123": "CA",
+            "D96": "CA",
+            "D97": "CA",
+            "D98": "CA",
+            "E99": "CA",
+            "E100": "CA",
+            "E101": "CA"
+        },
+        "is_non_loopy": true
+    },
+    "exp6_MHC+TCR_TCR-focused": {
+        "dialect": 2,
+        "input": "HLA_A02_8GOM_std_clean.pdb",
+        "contig": "A1-275,/0,8-8,/0,D1-180,D183-193,/0,E2-245",
+        "infer_ori_strategy": "hotspots",
+        "select_hotspots": {
+            "A66": "CA",
+            "A159": "CA",
+            "A7": "CA",
+            "A77": "CA",
+            "A143": "CA",
+            "A116": "CA",
+            "D95": "CA",
+            "D96": "CA",
+            "D97": "CA",
+            "D98": "CA",
+            "D99": "CA",
+            "E99": "CA",
+            "E100": "CA",
+            "E101": "CA",
+            "E102": "CA",
+            "E103": "CA"
+        },
+        "is_non_loopy": true
+    },
+    "exp7_MHC+TCR_MHC-focused": {
+        "dialect": 2,
+        "input": "HLA_A02_8GOM_std_clean.pdb",
+        "contig": "A1-275,/0,8-8,/0,D1-180,D183-193,/0,E2-245",
+        "infer_ori_strategy": "hotspots",
+        "select_hotspots": {
+            "A66": "CA",
+            "A159": "CA",
+            "A7": "CA",
+            "A77": "CA",
+            "A143": "CA",
+            "A116": "CA",
+            "D97": "CA",
+            "D98": "CA",
+            "E99": "CA",
+            "E100": "CA"
+        },
+        "is_non_loopy": true
+    },
+    "exp8_MHC+TCR_overconstrained": {
+        "dialect": 2,
+        "input": "HLA_A02_8GOM_std_clean.pdb",
+        "contig": "A1-275,/0,8-8,/0,D1-180,D183-193,/0,E2-245",
+        "infer_ori_strategy": "hotspots",
+        "select_hotspots": {
+            "A66": "CA",
+            "A63": "CA",
+            "A159": "CA",
+            "A167": "CA",
+            "A7": "CA",
+            "A99": "CA",
+            "A77": "CA",
+            "A80": "CA",
+            "A143": "CA",
+            "A146": "CA",
+            "A116": "CA",
+            "A123": "CA",
+            "D95": "CA",
+            "D96": "CA",
+            "D97": "CA",
+            "D98": "CA",
+            "D99": "CA",
+            "E99": "CA",
+            "E100": "CA",
+            "E101": "CA",
+            "E102": "CA",
+            "E103": "CA"
+        },
+        "is_non_loopy": true
+    }
+}

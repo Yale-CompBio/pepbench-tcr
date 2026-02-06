@@ -6,9 +6,6 @@ This repository provides the computational pipeline for benchmarking de novo pep
 
 We compare **RFdiffusion** (backbone-only) and **RFdiffusion3** (all-atom) for generating peptides that simultaneously satisfy MHC groove constraints and TCR recognition. The pipeline proceeds through four stages: diffusion-based structure generation, sequence inpainting with ProteinMPNN, MHC binding prediction with NetMHCpan, and Rosetta side-chain threading.
 
-<p align="center">
-  <img src="docs/workflow.png" alt="Pipeline overview" width="700">
-</p>
 
 ---
 
